@@ -1,3 +1,3 @@
-mruby Cookbook
+redis Cookbook
 ====================
-Installs ngx_mruby.
+Installs redis.
