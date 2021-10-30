@@ -4,11 +4,11 @@
 #
 # Copyright:: 2021, The Authors, All Rights Reserved.
 execute 'update apt-get' do
-  command 'sudo apt-get update && apt-get upgrade -y'
+  command 'sudo apt-get update && apt-get upgrade -y --force-yes'
 end
 
 execute 'install redis-server' do
-  command 'sudo apt-get install redis-server -y'
+  command 'sudo apt-get install redis-server -y --force-yes'
 end
 
 execute 'start redis' do
